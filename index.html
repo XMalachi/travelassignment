@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Assignment</title>
+    <style>
+        * {
+            padding: 0;
+        }
+        .navbar-toggler-icon{
+            border: none;
+            margin: 0 20px 0 0;
+            color: rgb(109, 108, 108);
+        }
+        .fa-table-cells {color: rgb(189, 188, 188); margin-right: 20px;}
+        .user {border-radius: 50%;}
+
+        aside > div a, .ico a {
+            color: rgb(109, 108, 108);
+        }
+        aside a:hover {
+            color: rgb(134, 169, 209);
+            transition: 0.5s;
+            text-decoration-line: none;
+        }
+        
+        main img {
+            width: 80vw;
+            height: 30vh;
+            border: 10px transparent;
+        }
+        .fa-search {
+            position: absolute;
+            color: #aaa; 
+        }
+        .form-control {
+            text-align: center;
+            box-shadow: #aaa;
+        }
+        .input-main {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .icon {
+            padding-top: 14px;
+            min-width: 50px;
+            text-align: center;
+        }
+          
+        .input-field {
+            width: 460px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 25px;
+            border: thin solid silver;
+            box-shadow: 2px 2px silver
+        }
+        .bottom {
+            font-size: 0.9em;
+            border: thin solid silver;
+            border-radius: 15px;
+            text-align: center;
+        }
+        div.info i {
+            color: #f3dba2;
+            background-color: #f9ebc863;
+            padding: 7px;
+            margin: 15px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav  class="navbar navbar-light">
+            <div>
+                <a class="navbar-toggler-icon"></a>
+                <img src="pic/google.png" alt="google write up">
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-table-cells" style="font-size: large;"></i>
+                <img class="user" src="pic/user.png" alt="google write up">
+            </div>
+        </nav>
+
+        <!-- aside container starts -->
+        <aside class="d-flex d-lg-block float-left m-2 mt-3">
+            <div class="text-center m-4">
+                <a href="travel"><i class="fa-solid fa-suitcase-rolling "></i><br>Travel</a>
+            </div>
+            <div class="text-center m-4">
+                <a href=""><i class="fa-brands fa-wpexplorer"></i></i><br>Explore</a>
+            </div>
+            <div class="text-center m-4">
+                <a href=""><i class="fa-solid fa-briefcase"></i></i><br>Things to do</a>
+            </div>
+            <div class="text-center m-4">
+                <a href=""><i class="fa-solid fa-plane-up"></i></i><br>Flight</a>
+            </div>
+            <div class="text-center m-4">
+                <a href=""><i class="fa-solid fa-bed"></i></i><br>Hotels</a>
+            </div>
+            <div class="text-center m-4">
+                <a href=""><i class="fa-solid fa-house-chimney"></i></i><br>Vacation<br> Rentals</a>
+            </div>
+        </aside>
+        <!-- aside container ends -->
+
+        <!-- main starts  -->
+        <main class="main text-center">
+            <img src="pic/main.jpg" alt="main image" class="center">
+            <div>
+                <h1 class="font-weight-light">Travel</h1>
+                
+                <div class="input-main">
+                    <i class="fa fa-search icon">
+                  </i>
+                    <input class="input-field" 
+                           type="search"
+                           placeholder="Search for flights, hotels, and more">
+                </div>
+               
+            </div>
+            <div class="ico d-flex justify-content-center m-4">
+                <div class="text-center m-4 ">
+                    <a href=""><i class="fa-brands fa-wpexplorer"></i></i><br>Explore</a>
+                </div>
+                <div class="text-center m-4">
+                    <a href=""><i class="fa-solid fa-briefcase"></i></i><br>Things to do</a>
+                </div>
+                <div class="text-center m-4">
+                    <a href=""><i class="fa-solid fa-plane-up"></i></i><br>Flight</a>
+                </div>
+                <div class="text-center m-4">
+                    <a href=""><i class="fa-solid fa-bed"></i></i><br>Hotels</a>
+                </div>
+                <div class="text-center m-4">
+                    <a href=""><i class="fa-solid fa-house-chimney"></i></i><br>Vacation<br> Rentals</a>
+                </div>
+            </div>
+        
+            <div class="bottom d-flex text-center">
+                <div class="info">
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+                
+                <div class="text-left">
+                    <p class="">
+                        <h6>Active travel advisory</h6>
+                        There's a government travel advisory related to coronavirus (COVID-19).
+                        <a href="#" class="btn-link">More details.</a>
+                    </p>
+                </div>
+                
+            </div>
+          
+            
+        </main>
+        <!-- main endss here -->
+    </div>
+
+    
+</body>
+<script src="https://kit.fontawesome.com/e826019b0e.js" crossorigin="anonymous"></script>
+</html>
